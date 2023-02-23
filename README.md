@@ -18,7 +18,7 @@ This project is great if you're starting to get confident with slightly more com
 
 ## Resources
 
-- Challange URL: [Click here](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
+- Challange URL: [Click here](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-UXnd-nr95e)
 - Live Site URL: [Click here](https://lukenso.github.io/Fylo-landing-page/)
 ## Author
 
