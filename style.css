@@ -1,13 +1,13 @@
-body{
+body {
     background-color: #FFFFFF;
     width: 100%;
 }
 
-.mainLogo{
+.mainLogo {
     margin: 24px;
 }
 
-.main-menu{
+.main-menu {
     display: flex;
     justify-content: space-evenly;
     width: 168px;
@@ -16,11 +16,11 @@ body{
     margin-top: -45px;
 }
 
-.fylo-logo{
+.fylo-logo {
     height: 23.65px;
 }
 
-.main-menu a{
+.main-menu a {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -29,14 +29,14 @@ body{
     text-decoration: none;
 }
 
-.firstImage{
+.firstImage {
     margin-top: 103px;
     width: 304px;
     height: 225px;
     margin-left: 35px;
 }
 
-.files{
+.files {
     color: #07043B;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -49,7 +49,7 @@ body{
     height: 108px;
 }
 
-.stores{
+.stores {
     margin-top: 24px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -62,7 +62,7 @@ body{
     margin-left: 36px;
 }
 
-.email-mobile{
+.email-mobile {
     margin-top: 32px;
     margin-left: 38px;
     width: 304px;
@@ -78,11 +78,24 @@ body{
     padding-left: 21px;
 }
 
-#email-error{
-    display: none;
+.bodyContainer {
+    position: relative;
 }
 
-.get-started{
+#email-error {
+    display: none;
+    margin-top: -62px;
+    margin-left: 38px;
+    color: #EF4877;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.09px;
+    letter-spacing: 0.4px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+}
+
+.get-started {
     margin-top: 28px;
     margin-left: 36px;
     width: 304px;
@@ -98,20 +111,20 @@ body{
     color: #FFFFFF;
 }
 
-.lowerContainer{
+.lowerContainer {
     background-color: #F8F8FE;
 }
 
-.curve-mobile{
+.curve-mobile {
     margin-top: 90px;
     width: 100%;
 }
 
-.curve-desktop{
+.curve-desktop {
     display: none;
 }
 
-.stay{
+.stay {
     margin-top: 87px;
     width: 260px;
     height: 24px;
@@ -119,11 +132,11 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    margin-left:59px;
+    margin-left: 59px;
     color: #07043B;
 }
 
-.never{
+.never {
     margin-top: 24px;
     color: #615F7E;
     text-align: center;
@@ -136,7 +149,7 @@ body{
     margin-left: 20px;
 }
 
-.share{
+.share {
     font-family: 'Open Sans', sans-serif;
     margin-top: 16px;
     margin-left: 20px;
@@ -149,7 +162,7 @@ body{
     color: #615F7E;
 }
 
-.fylo-works{
+.fylo-works {
     height: 16px;
     color: #3DA08F;
     font-family: 'Open Sans', sans-serif;
@@ -159,26 +172,26 @@ body{
     text-decoration: none;
 }
 
-.fylo-link{
+.fylo-link {
     width: 130px;
     margin-top: 36px;
     margin-left: 123px;
     border-bottom: 1px solid #71DFCC;
 }
 
-.fylo-link hr{
+.fylo-link hr {
     width: 130px;
     height: 1px;
     color: #3DA08F;
     margin-top: 6px;
 }
 
-.fylo-link svg{
+.fylo-link svg {
     margin-left: 115px;
     margin-top: -19px;
 }
 
-.comment{
+.comment {
     width: 280px;
     height: 169.1px;
     border-radius: 3.93px;
@@ -188,7 +201,7 @@ body{
     box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
 }
 
-.quotes{
+.quotes {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     font-size: 35.39px;
@@ -197,7 +210,7 @@ body{
     margin-left: 26px;
 }
 
-.iproved{
+.iproved {
     width: 241.3px;
     height: 73px;
     font-family: 'Open Sans', sans-serif;
@@ -210,7 +223,7 @@ body{
     margin-top: -15px;
 }
 
-.kyle-avatar{
+.kyle-avatar {
     width: 24px;
     height: 24px;
     border-radius: 50px;
@@ -218,14 +231,14 @@ body{
     margin-left: 26px;
 }
 
-.jd{
+.jd {
     display: flex;
     flex-direction: column;
     margin-left: 60px;
     margin-top: -22px;
 }
 
-.name{
+.name {
     width: 58px;
     height: 12px;
     font-family: 'Open Sans', sans-serif;
@@ -235,7 +248,7 @@ body{
     letter-spacing: 0.45px;
 }
 
-.position{
+.position {
     width: 73px;
     height: 12px;
     font-family: 'Open Sans', sans-serif;
@@ -245,14 +258,14 @@ body{
     letter-spacing: 0.3px;
 }
 
-.floor{
+.floor {
     width: 100%;
     height: 345px;
     margin-top: 81.9px;
     background-color: #575988;
 }
 
-.early{
+.early {
     width: 195px;
     height: 24px;
     margin-left: 89px;
@@ -263,7 +276,7 @@ body{
     line-height: 24px;
 }
 
-.takes{
+.takes {
     text-align: center;
     margin-top: 16px;
     margin-left: 48px;
@@ -276,11 +289,11 @@ body{
     color: #FFFFFF;
 }
 
-.floor-text{
+.floor-text {
     padding-top: 54px;
 }
 
-.email-floor{
+.email-floor {
     width: 240px;
     height: 32px;
     border-radius: 1.47px;
@@ -296,7 +309,7 @@ body{
     color: #C0C0C0;
 }
 
-.for-free{
+.for-free {
     margin-top: 8px;
     margin-left: 66px;
     width: 240px;
@@ -312,25 +325,25 @@ body{
     line-height: 11.74px;
 }
 
-footer{
+footer {
     width: 100%;
     height: 590px;
     background-color: #07043B;
 
 }
 
-.footer-logo{
+.footer-logo {
     padding-top: 65px;
     padding-left: 39px;
-    
+
 }
 
-.footer-image{
+.footer-image {
     height: 30px;
     filter: brightness(0) invert(1);
 }
 
-.phone{
+.phone {
     margin-top: 32px;
     margin-left: 43px;
     display: flex;
@@ -338,7 +351,7 @@ footer{
     gap: 16px;
 }
 
-.phone p{
+.phone p {
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -348,7 +361,7 @@ footer{
     margin-top: -38px;
 }
 
-.footer-list{
+.footer-list {
     margin-top: 32px;
     margin-left: 39px;
     display: flex;
@@ -356,7 +369,7 @@ footer{
     gap: 16px;
 }
 
-.footer-list a{
+.footer-list a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -365,7 +378,7 @@ footer{
     color: #FFFFFF;
 }
 
-.contact-list{
+.contact-list {
     margin-top: 32px;
     margin-left: 39px;
     display: flex;
@@ -373,7 +386,7 @@ footer{
     gap: 16px;
 }
 
-.contact-list a{
+.contact-list a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -382,7 +395,7 @@ footer{
     color: #FFFFFF;
 }
 
-.social-icons{
+.social-icons {
     width: 104px;
     height: 27px;
     display: flex;
@@ -392,36 +405,38 @@ footer{
     gap: 11px;
 }
 
-@media screen and (min-width: 1440px){
-    
-    body{
+@media screen and (min-width: 1440px) {
+
+    body {
         width: 100%;
     }
 
-    .fylo-logo{
+    .fylo-logo {
         height: 49px;
     }
-    .mainLogo{
+
+    .mainLogo {
         margin-top: 66px;
         margin-left: 80px;
     }
-    .main-menu{
+
+    .main-menu {
         width: 271px;
         float: right;
         margin-right: 100px;
         display: flex;
         justify-content: space-between;
         margin-top: -55px;
-        gap:57px;
+        gap: 57px;
     }
 
-    .main-menu a{
+    .main-menu a {
         font-weight: 400;
         font-size: 16px;
         line-height: 18.78px;
     }
 
-    .firstImage{
+    .firstImage {
         width: 640px;
         height: 474px;
         float: right;
@@ -429,7 +444,7 @@ footer{
         margin-top: -55px;
     }
 
-    .files{
+    .files {
         width: 627px;
         height: 120px;
         font-weight: 700;
@@ -440,7 +455,7 @@ footer{
         margin-left: 80px;
     }
 
-    .stores{
+    .stores {
         width: 585px;
         height: 72px;
         font-weight: 400;
@@ -451,7 +466,7 @@ footer{
         margin-left: 80px;
     }
 
-    .email-mobile{
+    .email-mobile {
         width: 320px;
         height: 45px;
         margin-left: 80px;
@@ -460,7 +475,7 @@ footer{
         letter-spacing: 0.47px;
     }
 
-    .bodyContainer{
+    .bodyContainer {
         position: relative;
     }
 
@@ -475,37 +490,37 @@ footer{
         letter-spacing: 0.4px;
         font-family: 'Open Sans', sans-serif;
         position: absolute;
-      }
+    }
 
-    .get-started{
+    .get-started {
         width: 200px;
         height: 45px;
         font-size: 14px;
         line-height: 16.44px;
     }
 
-    .curve-mobile{
+    .curve-mobile {
         display: none;
     }
 
-    .curve-desktop{
+    .curve-desktop {
         display: block;
         margin-top: 284px;
         width: 100%;
     }
 
-    .secondImage{
+    .secondImage {
         width: 542px;
         height: 409px;
         float: right;
         margin-right: 80px;
     }
 
-    .lowerContainer{
+    .lowerContainer {
         margin-top: -87px;
     }
 
-    .stay{
+    .stay {
         width: 650px;
         height: 47px;
         font-size: 40px;
@@ -513,7 +528,7 @@ footer{
         margin-left: 80px;
     }
 
-    .never{
+    .never {
         width: 529px;
         height: 48px;
         font-size: 16px;
@@ -523,7 +538,7 @@ footer{
         margin-top: 38px;
     }
 
-    .share{
+    .share {
         width: 529px;
         height: 48px;
         font-size: 16px;
@@ -533,35 +548,35 @@ footer{
         margin-left: 80px;
     }
 
-    .fylo-works{  
+    .fylo-works {
         font-size: 16px;
         line-height: 21.79px;
     }
 
-    .fylo-link{
+    .fylo-link {
         width: 166px;
         margin-left: 80px;
         margin-top: 15px;
     }
 
-    .fylo-link svg{
+    .fylo-link svg {
         margin-left: 150px;
     }
 
-    .comment{
+    .comment {
         margin-left: 80px;
         margin-top: 50px;
         width: 356px;
         height: 215px;
     }
 
-    .quotes{
+    .quotes {
         font-size: 45px;
         line-height: 67.5px;
         padding-top: 12px;
     }
 
-    .iproved{
+    .iproved {
         width: 289px;
         height: 92px;
         font-size: 13px;
@@ -569,37 +584,37 @@ footer{
         margin-top: -25px;
     }
 
-    .kyle-avatar{
+    .kyle-avatar {
         width: 32px;
         height: 32px;
     }
 
-    .jd{
+    .jd {
         margin-left: 70px;
         margin-top: -28px;
     }
 
-    .name{
+    .name {
         font-size: 11px;
         line-height: 14.98px;
         letter-spacing: 0.55px;
         width: 71px;
-        
+
     }
 
-    .position{
+    .position {
         width: 97px;
         font-size: 8px;
         line-height: 15px;
         letter-spacing: 0.36px;
     }
 
-    .floor{
+    .floor {
         height: 370px;
         margin-top: 107px;
     }
 
-    .early{
+    .early {
         width: 347px;
         height: 48px;
         font-size: 32px;
@@ -608,7 +623,7 @@ footer{
         margin-top: 70px;
     }
 
-    .takes{
+    .takes {
         width: 533px;
         height: 72px;
         font-size: 16px;
@@ -618,7 +633,7 @@ footer{
         margin-left: 80px;
     }
 
-    .email-floor{
+    .email-floor {
         float: right;
         width: 480px;
         height: 48px;
@@ -631,7 +646,7 @@ footer{
         padding-left: 22px;
     }
 
-    .for-free{
+    .for-free {
         float: right;
         width: 200px;
         height: 48px;
@@ -643,70 +658,70 @@ footer{
         box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
     }
 
-    footer{
+    footer {
         height: 391px;
     }
 
-    .footer-logo{
+    .footer-logo {
         height: 39px;
         margin-left: 30px;
     }
-    
-    .phone{
+
+    .phone {
         padding-top: 37px;
         margin-left: 70px;
     }
-    
-    .footer-list{
+
+    .footer-list {
         margin-left: -335px;
         margin-top: -58px;
         align-items: center;
     }
 
-    .contact-list{
+    .contact-list {
         margin-top: -135px;
         align-items: center;
         margin-left: 200px;
     }
 
-    .social-icons{
+    .social-icons {
         float: right;
         margin-right: 262px;
         margin-top: -97px;
     }
 
-    .get-started:hover{
+    .get-started:hover {
         background: #6C9BFF;
         cursor: pointer;
     }
 
-    .footer-list a:hover{
+    .footer-list a:hover {
         color: #6C9BFF;
     }
 
-    .contact-list a:hover{
+    .contact-list a:hover {
         color: #6C9BFF;
     }
 
-    .social-icons img:hover{
+    .social-icons img:hover {
         cursor: pointer;
         filter: invert(50%) sepia(80%) saturate(1400%) hue-rotate(200deg);
     }
 
-    .fylo-works:hover{
+    .fylo-works:hover {
         color: #71DFCC;
         cursor: pointer;
     }
 
-    .social-icons svg path{
+    .social-icons svg path {
         fill: white;
     }
 
-    .social-icons svg path:hover{
-        fill:#71DFCC;
+    .social-icons svg path:hover {
+        fill: #71DFCC;
     }
 
-    .for-free:hover{
+    .for-free:hover {
         background: #6C9BFF;
         cursor: pointer;
     }
