@@ -78,6 +78,10 @@ body{
     padding-left: 21px;
 }
 
+#email-error{
+    display: none;
+}
+
 .get-started{
     margin-top: 28px;
     margin-left: 36px;
@@ -159,7 +163,7 @@ body{
     width: 130px;
     margin-top: 36px;
     margin-left: 123px;
-    gap: 6px;
+    border-bottom: 1px solid #71DFCC;
 }
 
 .fylo-link hr{
@@ -538,16 +542,10 @@ footer{
         width: 166px;
         margin-left: 80px;
         margin-top: 15px;
-        
     }
 
     .fylo-link svg{
         margin-left: 150px;
-    }
-
-    .fylo-link hr{
-        width: 166px;
-        margin-top: 4px;
     }
 
     .comment{
