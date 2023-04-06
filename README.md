@@ -12,7 +12,7 @@ This project is great if you're starting to get confident with slightly more com
 - Responsive Design
 - JavaScript (Email validation)
 
-## Designed for ony two devices 
+## Designed for only two devices 
 - Mobile (375px)
 - Desktop(1440px)
 
